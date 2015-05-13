@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sfT-rF-494">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
@@ -32,8 +32,22 @@
                     <view key="view" contentMode="scaleToFill" id="jLp-BB-1Me">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LOA-5h-a4c">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LOA-5h-a4c" firstAttribute="top" secondItem="jLp-BB-1Me" secondAttribute="top" id="0e5-4I-A4y"/>
+                            <constraint firstItem="LOA-5h-a4c" firstAttribute="leading" secondItem="jLp-BB-1Me" secondAttribute="leading" id="Qjd-f7-7ma"/>
+                            <constraint firstItem="mIh-7f-y1M" firstAttribute="top" secondItem="LOA-5h-a4c" secondAttribute="bottom" id="mHm-F4-pvk"/>
+                            <constraint firstAttribute="trailing" secondItem="LOA-5h-a4c" secondAttribute="trailing" id="vy8-Gf-Dap"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="LOA-5h-a4c" id="ObS-Uf-EiP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rTu-RU-OEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

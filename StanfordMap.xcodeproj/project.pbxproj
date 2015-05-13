@@ -103,10 +103,10 @@
 		F7DC84001B02E48D001F28F8 /* StanfordMap */ = {
 			isa = PBXGroup;
 			children = (
+				F7DC84291B02E9EE001F28F8 /* Controllers */,
+				F7DC84281B02E9DC001F28F8 /* UI */,
 				F7DC84031B02E48D001F28F8 /* AppDelegate.swift */,
-				F7DC84051B02E48D001F28F8 /* ViewController.swift */,
 				F7DC84071B02E48D001F28F8 /* Main.storyboard */,
-				F7DC84231B02E636001F28F8 /* MapViewController.swift */,
 				F7DC840A1B02E48D001F28F8 /* Images.xcassets */,
 				F7DC840C1B02E48D001F28F8 /* LaunchScreen.xib */,
 				F7DC84011B02E48D001F28F8 /* Supporting Files */,
@@ -137,6 +137,22 @@
 				F7DC84181B02E48D001F28F8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7DC84281B02E9DC001F28F8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		F7DC84291B02E9EE001F28F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC84231B02E636001F28F8 /* MapViewController.swift */,
+				F7DC84051B02E48D001F28F8 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
