@@ -14,7 +14,6 @@
 		F7DC840B1B02E48D001F28F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DC840A1B02E48D001F28F8 /* Images.xcassets */; };
 		F7DC840E1B02E48D001F28F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DC840C1B02E48D001F28F8 /* LaunchScreen.xib */; };
 		F7DC841A1B02E48D001F28F8 /* StanfordMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DC84191B02E48D001F28F8 /* StanfordMapTests.swift */; };
-		F7DC84241B02E636001F28F8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DC84231B02E636001F28F8 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		F7DC84131B02E48D001F28F8 /* StanfordMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StanfordMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DC84181B02E48D001F28F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7DC84191B02E48D001F28F8 /* StanfordMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanfordMapTests.swift; sourceTree = "<group>"; };
-		F7DC84231B02E636001F28F8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +104,6 @@
 				F7DC84031B02E48D001F28F8 /* AppDelegate.swift */,
 				F7DC84051B02E48D001F28F8 /* ViewController.swift */,
 				F7DC84071B02E48D001F28F8 /* Main.storyboard */,
-				F7DC84231B02E636001F28F8 /* MapViewController.swift */,
 				F7DC840A1B02E48D001F28F8 /* Images.xcassets */,
 				F7DC840C1B02E48D001F28F8 /* LaunchScreen.xib */,
 				F7DC84011B02E48D001F28F8 /* Supporting Files */,
@@ -275,7 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7DC84061B02E48D001F28F8 /* ViewController.swift in Sources */,
-				F7DC84241B02E636001F28F8 /* MapViewController.swift in Sources */,
 				F7DC84041B02E48D001F28F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
