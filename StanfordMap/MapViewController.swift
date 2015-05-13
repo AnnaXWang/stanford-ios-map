@@ -20,6 +20,16 @@ class MapViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        LocationManager.sharedInstance.subscribeToLocationUpdates(self, withBlock: { (location: CLLocation) -> Void in
+            
+            self.mapView.showsUserLocation = true
+            let region = MKCoordinateRegionMakeWithDistance(location.coordinate, 1000, 1000)
+            self.mapView.setRegion(region, animated: true)
+            
+            // Annotations are custom views
+            println("location = \(location)")
+        })
     }
 
     override func didReceiveMemoryWarning() {
